@@ -1,0 +1,26 @@
+{
+  "name": "parsenv",
+  "version": "1.0.0",
+  "description": "Edit, Save or Load variables from .env ( For Nodejs )",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node test/write.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heinthanth/parsenv-node.git"
+  },
+  "author": {
+    "name": "Hein Thanth",
+    "email": "me@heinthanth.com",
+    "url": "https://heinthanth.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/heinthanth/parsenv-node/issues"
+  },
+  "homepage": "https://github.com/heinthanth/parsenv-node#readme",
+  "dependencies": {
+    "dotenv": "github:motdotla/dotenv"
+  }
+}
