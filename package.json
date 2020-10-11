@@ -1,6 +1,6 @@
 {
   "name": "parsenv",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Edit, Save or Load variables from .env ( For Nodejs )",
   "main": "src/index.js",
   "scripts": {
