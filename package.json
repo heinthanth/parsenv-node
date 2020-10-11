@@ -20,6 +20,14 @@
     "url": "https://github.com/heinthanth/parsenv-node/issues"
   },
   "homepage": "https://github.com/heinthanth/parsenv-node#readme",
+  "keywords": [
+    ".env",
+    "env",
+    "node",
+    "process.env",
+    "variable",
+    "environment variable"
+  ],
   "dependencies": {
     "dotenv": "github:motdotla/dotenv"
   }
