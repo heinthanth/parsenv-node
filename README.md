@@ -54,15 +54,15 @@ parsenv.write({ path: p.join(__dirname, "../.env.modified") });
 const dotenv = require("parsenv");
 
 const config = {
-    path: require('path').resolve(process.cwd(), ".env") # default
-    encoding: 'utf8' # default
-    debug: false # default
+    path: require('path').resolve(process.cwd(), ".env") // default
+    encoding: 'utf8' // default
+    debug: false // default
 };
 
-# config can apply to dotenv.config function
+// config can apply to dotenv.config function
 dotenv.config(config);
 
-# also pass it to dotenv.write function
+// also pass it to dotenv.write function
 dotenv.write(config);
 ```
 
